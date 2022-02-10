@@ -2,19 +2,32 @@
 <html> 
 
 <head>
-    <meta charset=utf-8/>
+    <link rel="stylesheet" href="style.css">
+    
+    <!-- <meta charset=utf-8/> -->
 </head>
 
 
 <body>
+    
 
     <h1>ic-07 - Intro to JavaScript</h1>
-
-    <button type="button">Button 1</button>
+    <button type="button" onclick="button1Clicked()">Button 1</button>
 
     <div id="random_num">
         When Button 1 is clicked, a random number should appear here. 
     </div>
+
+    <div class='parent'>
+        <span>
+            <button type="button" onclick="button2Clicked()">Button 2</button>
+        </span>
+        <span>
+            <svg><circle id="circle" cx="10" cy="10" r="10" /></svg>
+        </span>
+      </div>
+
+      <script src="main.js"></script>
 
 </body>
 

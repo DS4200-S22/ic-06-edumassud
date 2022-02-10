@@ -1,0 +1,12 @@
+body {
+    font-family: Arial;
+}
+
+svg {
+    width: 20px;
+    height: 20px;
+}
+
+circle {
+    fill: blue;
+}
